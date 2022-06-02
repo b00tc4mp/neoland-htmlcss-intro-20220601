@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+}
+
+.container--row {
+    flex-direction: row;
+}
+
+.container--column {
+    flex-direction: column;
+}
+
+.content {
+    border: 1px dotted black;
+    min-width: 25px;
+    min-height: 25px;
+}

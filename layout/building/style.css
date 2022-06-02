@@ -1,0 +1,33 @@
+.building {
+    width: 40vw;
+    height: 70vw;
+    border: 1px dashed black;
+}
+
+.floor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vw;
+    background-color: skyblue;
+    /* margin: 1px; */
+}
+
+.window {
+    width: 10vw;
+    height: 10vw;
+    border: 1px solid black;
+}
+
+.ground-floor {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 25vw;
+}
+
+.door {
+    width: 10vw;
+    height: 20vw;
+    border: 1px solid black;
+}

@@ -1,0 +1,30 @@
+.chess {
+    border: 1px solid black;
+    padding: 1px;
+    display: inline-block;
+}
+
+
+.chess__board {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 50vw;
+    height: 50vw;
+    border: 1px solid black;
+}
+
+.chess__square {
+    background-color: white;
+}
+
+.chess__square:nth-child(-2n+8),
+.chess__square:nth-child(8)~.chess__square:nth-child(-2n+15),
+.chess__square:nth-child(16)~.chess__square:nth-child(-2n+24),
+.chess__square:nth-child(24)~.chess__square:nth-child(-2n+31),
+.chess__square:nth-child(32)~.chess__square:nth-child(-2n+40),
+.chess__square:nth-child(40)~.chess__square:nth-child(-2n+47),
+.chess__square:nth-child(48)~.chess__square:nth-child(-2n+56),
+.chess__square:nth-child(56)~.chess__square:nth-child(-2n+63) {
+    background-color: black;
+}

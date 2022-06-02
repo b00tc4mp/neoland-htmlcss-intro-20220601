@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+.title {
+    font-family: Notable;
+}
+
+.title--main {
+    color: yellow;
+    /* foreground color */
+    background-color: dodgerblue;
+    text-align: center;
+}
+
+.photo {
+    display: inline-block;
+}
+
+.photo--large {
+    width: 80vw;
+}
+
+.photo--medium {
+    width: 50vw;
+}
+
+.photo--small {
+    width: 33vw;
+}
+
+.photo--rounded-corners {
+    border-radius: 1rem;
+}
+
+.photo--round {
+    border-radius: 50%;
+}
+
+.info {
+    font-family: Oswald;
+    font-size: 18px;
+}
+
+.container {
+    display: block;
+}
+
+.container--center {
+    text-align: center;
+}
+
+.container--right {
+    text-align: right;
+}
+
+.container--left {
+    text-align: left;
+}
+
+.container--circular-landscape {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.container__content--circular-landscape {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
+
+/* RTFM https://www.webfx.com/blog/web-design/circular-images-css/ */
